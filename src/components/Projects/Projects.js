@@ -11,7 +11,7 @@ import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/chess.jpeg";
 import bitsOfCode from "../../Assets/Projects/shivpicks.jpeg";
 import DSA from "../../Assets/Projects/DSA.png";
-import music from "../../Assets/Projects/music.jpg";
+import Music from "../../Assets/Projects/Music.jpg";
 
 function Projects() {
   return (
@@ -95,7 +95,6 @@ function Projects() {
             />
           </Col>
 
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={DSA}
@@ -108,7 +107,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={music}
+              imgPath={Music}
               isBlog={false}
               title="Music Studio"
               description="A modern, web-based Digital Audio Workstation built with Next.js and TypeScript"
@@ -116,7 +115,7 @@ function Projects() {
             />
           </Col>
 
-                
+  
 
         </Row>
       </Container>
@@ -125,4 +124,3 @@ function Projects() {
 }
 
 export default Projects;
-
