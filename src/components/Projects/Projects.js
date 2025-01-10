@@ -94,10 +94,11 @@ function Projects() {
               ghLink="https://github.com/shivam041/knowledge-graph-search-engine"
             />
           </Col>
-        </Col>
+
+
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={graph}
+              imgPath={DSA}
               isBlog={false}
               title="Data Structures and Algorithms Visualizer"
               description="An interactive web application for visualizing data structures and algorithms"
@@ -105,10 +106,9 @@ function Projects() {
             />
           </Col>
 
-          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={graph}
+              imgPath={music}
               isBlog={false}
               title="Music Studio"
               description="A modern, web-based Digital Audio Workstation built with Next.js and TypeScript"
@@ -119,6 +119,7 @@ function Projects() {
 
 
 
+                
 
         </Row>
       </Container>
