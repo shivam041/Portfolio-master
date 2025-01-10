@@ -10,6 +10,8 @@ import graph from "../../Assets/Projects/graph.jpeg";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/chess.jpeg";
 import bitsOfCode from "../../Assets/Projects/shivpicks.jpeg";
+import DSA from "../../Assets/Projects/DSA.png";
+import music from "../../Assets/Projects/music.jpg";
 
 function Projects() {
   return (
@@ -92,6 +94,28 @@ function Projects() {
               ghLink="https://github.com/shivam041/knowledge-graph-search-engine"
             />
           </Col>
+        </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={graph}
+              isBlog={false}
+              title="Data Structures and Algorithms Visualizer"
+              description="An interactive web application for visualizing data structures and algorithms"
+              ghLink="https://github.com/shivam041/Data-Stuctures-and-Algorithms-Visualizer"
+            />
+          </Col>
+
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={graph}
+              isBlog={false}
+              title="Music Studio"
+              description="A modern, web-based Digital Audio Workstation built with Next.js and TypeScript"
+              ghLink="https://github.com/shivam041/music-studio"
+            />
+          </Col>
+
 
 
 
