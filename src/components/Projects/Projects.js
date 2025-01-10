@@ -116,9 +116,6 @@ function Projects() {
             />
           </Col>
 
-
-
-
                 
 
         </Row>
