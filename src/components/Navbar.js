@@ -39,7 +39,6 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -62,12 +61,24 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
+                to="/expierience"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> Expierience
+              </Nav.Link>
+            </Nav.Item>
+
+          <Nav.Item>
+              <Nav.Link
+                as={Link}
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
+
+
 
             <Nav.Item>
               <Nav.Link

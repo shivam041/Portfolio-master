@@ -3,11 +3,15 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/stock-predictor.jpeg";
+import resume from "../../Assets/Projects/resume.jpeg";
 import emotion from "../../Assets/Projects/chess.jpeg";
 import editor from "../../Assets/Projects/to-do List.jpeg";
+import graph from "../../Assets/Projects/graph.jpeg";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/chess.jpeg";
 import bitsOfCode from "../../Assets/Projects/shivpicks.jpeg";
+import DSA from "../../Assets/Projects/DSA.png";
+import Music from "../../Assets/Projects/Music.jpg";
 
 function Projects() {
   return (
@@ -72,6 +76,47 @@ function Projects() {
               ghLink="https://github.com/shivam041/Chess"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={resume}
+              isBlog={false}
+              title="Resume Analyzer"
+              description="A tool which parses information from a resume using natural language processing and finds the keywords, cluster them onto sectors based on their keywords. And lastly show recommendations, predictions, analytics to the applicant / recruiter based on keyword matching."
+              ghLink="https://github.com/shivam041/Resume-Analyzer"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={graph}
+              isBlog={false}
+              title="knowledge-graph-search-engine"
+              description="A web-based Knowledge Graph Search Engine that constructs a knowledge graph from text documents and provides contextual answers to user queries."
+              ghLink="https://github.com/shivam041/knowledge-graph-search-engine"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={DSA}
+              isBlog={false}
+              title="Data Structures and Algorithms Visualizer"
+              description="An interactive web application for visualizing data structures and algorithms"
+              ghLink="https://github.com/shivam041/Data-Stuctures-and-Algorithms-Visualizer"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Music}
+              isBlog={false}
+              title="Music Studio"
+              description="A modern, web-based Digital Audio Workstation built with Next.js and TypeScript"
+              ghLink="https://github.com/shivam041/music-studio"
+            />
+          </Col>
+
+  
+
         </Row>
       </Container>
     </Container>
