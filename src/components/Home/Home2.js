@@ -19,12 +19,16 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am a Junior at Rutgers University studying Computer Science
+              I am a Senior at Rutgers University studying Computer Science
               and Data Science 
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Java, Javascript, SQL and Python. </b>
+                <b className="purple"> Java, Python, C, and SQL. </b>
+              </i>
+              <i>
+                I am also experienced in different languages and frameworks like 
+                <b classname="purple">React.js and Next.js</b>
               </i>
               <br />
               <br />
@@ -38,17 +42,17 @@ function Home2() {
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              Whenever possible, I also apply my passion for analyzing data
+              by using <b className="purple">A.I and Machine Learning Techniques</b> 
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+          
                 </b>
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+
               </i>
             </p>
           </Col>

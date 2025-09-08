@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Shivam Patel </span>
             from <span className="purple"> Franklin Park, New Jersey.</span>
             <br />
-            I am currently a Junior at Rutgers University.
+            I am currently a Senior at Rutgers University.
             <br />
             I am a double major in both Computer Science and Data Science.
             <br />
