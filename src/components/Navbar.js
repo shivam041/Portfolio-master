@@ -61,10 +61,10 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/expierience"
+                to="/experience"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> Expierience
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> Experience
               </Nav.Link>
             </Nav.Item>
 
